@@ -20,7 +20,7 @@ makeCacheMatrix <- function(x = matrix()) {
         list(set = set, get = get,                       # list containing the 4 functions (all can be called with object$ - e.g. object$get())
              setCachedMatrix = setCachedMatrix, 
              getCachedMatrix = getCachedMatrix)
-}
+}
 
 
 
